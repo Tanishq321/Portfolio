@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="certificate.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="skill.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -34,6 +35,8 @@
     </main>
 
     <div class="animation-bg" id="particles-js"></div>
+
+<!---------------------------------------------------------------------HOME----------------------------------------------------------------------->
 
     <section class="section-hero" id="section-hero">
         <div class="hero">
@@ -64,6 +67,55 @@
 
 <!------------------------------------------------------------------SKILLS------------------------------------------------------------------------>
 
+    <section class="section-skills" id="section-skills">
+        <div class="skills_section container">
+            <h2 class="heading-secondary">My <span class="skill-head-yellow">Skills</span></h2>
+            <div class="skill-container">
+
+                <div class="skill skill-1">
+                        <img class="html-icon p-icon" src="Programing-icons/html.png" alt="">
+                        <h3 class="skill-sub-heading">HTML-5</h3>
+                        <div class="progress-bar">
+                            <div class="html"><span>97%</span></div>
+                        </div>
+                </div>
+
+                <div class="skill skill-2">
+                    <img class="css-icon p-icon" src="Programing-icons/css.png" alt="">
+                    <h3 class="skill-sub-heading">CSS</h3>
+                    <div class="progress-bar">
+                        <div class="css"><span>74%</span></div>
+                    </div>
+                </div>
+
+                <div class="skill skill-3">
+                    <img class="js-icon p-icon" src="Programing-icons/js.png" alt="">
+                    <h3 class="skill-sub-heading">Java-Script</h3>
+                    <div class="progress-bar">
+                        <div class="javascript"><span>65%</span></div>
+                    </div>
+                </div>
+
+                <div class="skill skill-4">
+                    <img class="jcore-icon p-icon" src="Programing-icons/java.png" alt="">
+                    <h3 class="skill-sub-heading">Java-Core</h3>
+                    <div class="progress-bar">
+                        <div class="javacore"><span>89%</span></div>
+                    </div>
+                </div>
+
+                <div class="skill skill-5">
+                    <img class="c-icon p-icon" src="Programing-icons/c++.png" alt="">
+                    <h3 class="skill-sub-heading">C++</h3>
+                    <div class="progress-bar">
+                        <div class="c"><span>70%</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 <!--------------------------------------------------------------CERTIFICATION--------------------------------------------------------------------->
 
     <section class="section-certification" id="section-certification">
@@ -90,16 +142,16 @@
                     <img class="cert-img" src="certificate/c3.png" alt="certificate">
                 </a>
                 <div class="cert-overlay">AI Essentials</div>  
-              </div>
+            </div>
 
-          </div>
-        </div>
+            <div class="certificate-model hidden">
+                <button class="btn-close-model">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10.5859 12L2.79297 4.20706L4.20718 2.79285L12.0001 10.5857L19.793 2.79285L21.2072 4.20706L13.4143 12L21.2072 19.7928L19.793 21.2071L12.0001 13.4142L4.20718 21.2071L2.79297 19.7928L10.5859 12Z"></path></svg>
+                </button>
+                <img class="cert-img-model"  data-slide="1" src="" alt="certificate">
+            </div>
 
-        <div class="certificate-model hidden">
-            <button class="btn-close-model">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10.5859 12L2.79297 4.20706L4.20718 2.79285L12.0001 10.5857L19.793 2.79285L21.2072 4.20706L13.4143 12L21.2072 19.7928L19.793 21.2071L12.0001 13.4142L4.20718 21.2071L2.79297 19.7928L10.5859 12Z"></path></svg>
-            </button>
-            <img class="cert-img-model"  data-slide="1" src="" alt="certificate">
+            </div>
         </div>
     
       </section>
@@ -137,7 +189,8 @@
 
         </section>
 
-<!--------------------------------------------------------------------FOOTER---------------------------------------------------------------------->
+<!--------------------------------------------------------------------NAV BAR---------------------------------------------------------------------->
+    
     <div data-abell-edmfub="">
         <button aria-label="navbar button " class="nav shadow hidden" onclick="this.classList.toggle('open')" data-abell-edmfub="">
         <span class="bars" data-abell-edmfub="">
@@ -166,6 +219,8 @@
         </nav>
         <div class="nav-overlay" data-abell-edmfub=""></div>
     </div>
+
+<!---------------------------------------------------------------------FOOTER---------------------------------------------------------------------->
 
     <footer class="footer">
         <div class="container2 grid--footer">
@@ -205,7 +260,7 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed= new Typed(".auto-type",{
-            strings:["..."],
+            strings:["I am a student at Chitkara University.","..."],
             typeSpeed : 150,
             backSpeed : 100,
             loop :  true,
