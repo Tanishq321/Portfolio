@@ -17,7 +17,7 @@
     pointer-events: all;
 }
 
-.nav.open + .nav-content[data-abell-eDmfUb] {
+.nav.open+.nav-content[data-abell-eDmfUb] {
     visibility: visible;
     height: 520px;
     width: 570px;
@@ -42,7 +42,7 @@
     visibility: hidden;
     pointer-events: all;
 }
-  
+
 .nav-item[data-abell-eDmfUb] {
     font-size: 13px;
     text-align: center;
@@ -68,20 +68,20 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
-  
+
 .icon-r-menu {
     width: 5.5rem !important;
     height: 5.5rem !important;
 }
 
-.nav.open + .nav-content[data-abell-eDmfUb] {
+.nav.open+.nav-content[data-abell-eDmfUb] {
     visibility: visible;
     height: 520px;
     width: 570px;
     opacity: 1;
     transition: all 0.2s ease;
 }
-  
+
 .nav-item.home[data-abell-eDmfUb] {
     left: 157px;
     top: 55px;
@@ -97,7 +97,7 @@ a:-webkit-any-link {
     top: 205px;
 }
 
-.nav > .bars > span[data-abell-eDmfUb] {
+.nav>.bars>span[data-abell-eDmfUb] {
     display: block;
     width: 44px;
     height: 4px;
@@ -109,19 +109,18 @@ a:-webkit-any-link {
     transition: all 0.2s ease;
 }
 
-.nav.open > .bars > span[data-abell-eDmfUb]:nth-child(1) {
+.nav.open>.bars>span[data-abell-eDmfUb]:nth-child(1) {
     display: none;
 }
 
-.nav.open > .bars > span[data-abell-eDmfUb]:nth-child(2) {
+.nav.open>.bars>span[data-abell-eDmfUb]:nth-child(2) {
     transform: rotate(45deg);
     transition: all 0.2s ease;
     margin-bottom: 8px;
 }
 
-.nav.open > .bars > span[data-abell-eDmfUb]:nth-child(3) {
+.nav.open>.bars>span[data-abell-eDmfUb]:nth-child(3) {
     transform: rotate(-45deg);
-  
+
     transition: all 0.2s ease;
 }
-  

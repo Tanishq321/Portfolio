@@ -20,14 +20,14 @@
     background-color: rgba(45, 212, 191, 0.15);
     pointer-events: auto;
 }
-  
+
 .cert-img {
     width: 28rem;
     border-radius: 5px;
     overflow: hidden;
     position: relative;
 }
-  
+
 .cert-img:hover {
     filter: blur(1.5px);
     -webkit-filter: blur(1.5px);
@@ -80,10 +80,10 @@
     background: none;
     pointer-events: auto;
     color: #333;
-  }
+}
 
 .grid-3-col-cert {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-}  
+}
