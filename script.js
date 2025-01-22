@@ -58,7 +58,7 @@ const cert_img = document.querySelector(".cert-img-model");
 certificate.forEach((element) => {
   element.addEventListener("click", function () {
     const a = element.getAttribute("data-slide");
-    const cert_href = `certifications/c${a}.jpg`;
+    const cert_href = `certificate/c${a}.png`;
     cert_img.setAttribute("src", cert_href);
     model.classList.remove("hidden");
   });
