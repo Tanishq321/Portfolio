@@ -22,8 +22,8 @@ cert.addEventListener("click", function () {
 });
 document.addEventListener("keydown", function (e) {
   if (e.key === "Escape" && !model.classList.contains("hidden")) {
-    !model.classList.add("hidden");
-  }
+    model.classList.add("hidden");
+  }  
 });
 certificate.forEach((element) => {
   element.addEventListener("mouseover", function () {
@@ -508,7 +508,7 @@ const obs15 = new IntersectionObserver(
     rootMargin: "50px",
   }
 );
-obs15.observe(project_2);
+/*obs15.observe(project_2);
 const p5img1 = document.querySelector(".proj5-img");
 const p5img2 = document.querySelector(".p5-img-2");
 const p5img_wrp = document.querySelector(".demo-img-wrapper-5");
@@ -595,4 +595,4 @@ const obs18 = new IntersectionObserver(
     rootMargin: "50px",
   }
 );
-obs18.observe(project5);
+obs18.observe(project5);*/
