@@ -343,7 +343,6 @@ const obs11 = new IntersectionObserver(
     if (ent2.isIntersecting === true) {
       sec_1.style.animation = "movedown 1s linear forwards";
       sec_1.style.animationDelay = "0s";
-
       sec_2.style.animation = "movedown 1s linear forwards";
       sec_2.style.animationDelay = "1s";
       sec_3.style.animation = "movedown 1s linear forwards";
@@ -432,7 +431,7 @@ const obs13 = new IntersectionObserver(
     if (ent.isIntersecting === false) {
       main_nav.style.display = "none";
       header.classList.add("sticky");
-      splash.style.color = "rgb(234 180 30 )";
+      splash.style.color = "rgb(234 180 30)";
     }
 
     if (ent.isIntersecting === true) {
