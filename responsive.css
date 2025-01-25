@@ -7,7 +7,7 @@
     }
 
     #particles-js {
-        height: 850rem;
+        height: 650rem;
     }
 
     .hero {
@@ -96,7 +96,7 @@
     }
 
     #particles-js {
-        height: 920rem;
+        height: 650rem;
     }
 
     .skill-container {
@@ -171,7 +171,7 @@
     }
 
     #particles-js {
-        height: 960rem;
+        height: 740rem;
     }
 
     html {
@@ -219,7 +219,7 @@
 /* 800 */
 @media (max-width: 50em) {
     #particles-js {
-        height: 1130rem;
+        height: 750rem;
     }
 
     html {
@@ -265,7 +265,7 @@
 /* 735 */
 @media (max-width: 45em) {
     #particles-js {
-        height: 1140rem;
+        height: 780rem;
     }
 
     .contact-form {
@@ -299,7 +299,7 @@
 /* 640 */
 @media (max-width: 40em) {
     #particles-js {
-        height: 1270rem;
+        height: 850rem;
     }
 
     .grid--footer {
@@ -360,13 +360,13 @@
 /* 600 */
 @media (max-width: 38em) {
     #particles-js {
-        height: 1275rem;
+        height: 835rem;
     }
 }
 
 @media (max-width: 35em) {
     #particles-js {
-        height: 1230rem;
+        height: 800rem;
     }
 }
 
@@ -374,7 +374,7 @@
 
 @media (max-width: 33em) {
     #particles-js {
-        height: 1220rem;
+        height: 800rem;
     }
 
     .splash-logo {
@@ -448,13 +448,13 @@
 
 @media (max-width: 22em) {
     #particles-js {
-        height: 1220rem;
+        height: 790rem;
     }
 }
 
 @media (max-width: 19em) {
     #particles-js {
-        height: 1230rem;
+        height: 800rem;
     }
 
     .p2-img-2 {
@@ -465,7 +465,7 @@
 
 @media (max-width: 17em) {
     #particles-js {
-        height: 1240rem;
+        height: 820rem;
     }
 
 }
