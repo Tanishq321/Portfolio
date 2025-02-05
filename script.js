@@ -325,7 +325,6 @@ obs10.observe(skill9);
 const edu_wrapper = document.querySelector(".wrapper");
 const sec_1 = document.querySelector(".sec-1");
 const sec_2 = document.querySelector(".sec-2");
-const sec_3 = document.querySelector(".sec-3");
 const line = document.querySelector(".center-line");
 const obs11 = new IntersectionObserver(
   function (entries2) {
@@ -336,7 +335,6 @@ const obs11 = new IntersectionObserver(
     //   line.style.animation = "none";
     //   sec_1.style.animation = "none";
     //   sec_2.style.animation = "none";
-    //   sec_3.style.animation = "none";
     //   line.style.opacity = 0;
     // }
 
@@ -345,9 +343,7 @@ const obs11 = new IntersectionObserver(
       sec_1.style.animationDelay = "0s";
       sec_2.style.animation = "movedown 1s linear forwards";
       sec_2.style.animationDelay = "1s";
-      sec_3.style.animation = "movedown 1s linear forwards";
-      sec_3.style.animationDelay = "3s";
-      line.style.animation = "moveline 3s linear forwards";
+      line.style.animation = "moveline 2s linear forwards";
       line.style.opacity = 1;
     }
   },
